@@ -1,0 +1,22 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+ background-color: black;   
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+    padding: 20px;
+    background-color: white;
+}
+.logo {
+    width: 25%;
+}
+.simbolo {
+    width: 30px;
+}
