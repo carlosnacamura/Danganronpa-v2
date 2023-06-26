@@ -4,19 +4,24 @@
     box-sizing: border-box;
 }
 body {
- background-color: black;   
+ background-color: black;
 }
 header {
+    position: fixed;
+    background-color: transparent;
+    width: 100vw;
+    height: 20vh;
     display: flex;
     justify-content: space-around;
-    position: fixed;
-    width: 100vw;
-    padding: 20px;
-    background-color: white;
-}
-.logo {
-    width: 25%;
 }
 .simbolo {
-    width: 30px;
+    width: 200px;
 }
+.entrada {
+    background-image: url(https://64.media.tumblr.com/d83aeaff5e8fb6e0dade7d3275a62c4f/eb9d0ab3331be891-20/s1280x1920/164261e4fab42439964cb82d22a748f6af89a852.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+}
+
